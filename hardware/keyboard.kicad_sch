@@ -6261,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
+		(property "Footprint" "ScottoKeebs_Components:Switch_MSK12C02"
 			(at 220.98 42.672 0)
 			(effects
 				(font
@@ -9964,7 +9964,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 236.22 31.75 0)
 			(effects
 				(font

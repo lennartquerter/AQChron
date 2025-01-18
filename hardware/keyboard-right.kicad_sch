@@ -448,22 +448,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x09"
+		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x09"
-				(at 0 -12.7 0)
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -488,7 +488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -515,29 +515,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x09_1_1"
-				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x05_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -594,30 +572,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 11.43)
-					(end 1.27 -11.43)
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -627,7 +583,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -645,7 +601,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -663,7 +619,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -681,7 +637,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -699,7 +655,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -709,78 +665,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2158,6 +2042,168 @@
 				)
 			)
 		)
+		(symbol "synth:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Synth:SW_default"
+				(at 0 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at -0.254 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 55.88 165.1)
@@ -2508,12 +2554,20 @@
 		(uuid "ffdbffeb-34d5-4dbe-ad0b-e2a9c983303e")
 	)
 	(no_connect
+		(at 226.06 114.3)
+		(uuid "0a2d389f-3e9f-44e1-bb9d-15faac66476e")
+	)
+	(no_connect
 		(at 201.93 74.93)
 		(uuid "10e7fca8-361a-43df-b2fa-3a7818ce5e9c")
 	)
 	(no_connect
 		(at 201.93 77.47)
 		(uuid "cb84ad41-c68e-480b-a8ec-ffd757c9f737")
+	)
+	(no_connect
+		(at 228.6 39.37)
+		(uuid "d04c687f-5312-4836-8eb2-1c1dd6b12db9")
 	)
 	(wire
 		(pts
@@ -2757,7 +2811,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 96.52) (xy 261.62 104.14)
+			(xy 261.62 138.43) (xy 261.62 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2851,17 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 36.83) (xy 233.68 36.83)
+			(xy 233.68 36.83) (xy 233.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a416823-f57d-40e5-99fc-b7ac0eb25120")
+	)
+	(wire
+		(pts
+			(xy 228.6 34.29) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3027,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 96.52) (xy 264.16 104.14)
+			(xy 264.16 138.43) (xy 264.16 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3295,7 +3359,7 @@
 		)
 		(uuid "17ced49d-f80b-46ab-9eed-67727265020d")
 	)
-	(text "Split Staggered Ortholinear Keyboard - LEFT"
+	(text "Split Staggered Ortholinear Keyboard - RIGHT"
 		(exclude_from_sim no)
 		(at 221.742 169.672 0)
 		(effects
@@ -3307,7 +3371,7 @@
 	)
 	(text "CS"
 		(exclude_from_sim no)
-		(at 266.954 117.094 90)
+		(at 266.954 159.004 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3317,7 +3381,7 @@
 	)
 	(text "VCC"
 		(exclude_from_sim no)
-		(at 261.62 117.602 90)
+		(at 261.62 159.512 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3327,7 +3391,7 @@
 	)
 	(text "MOSI"
 		(exclude_from_sim no)
-		(at 256.794 117.856 90)
+		(at 256.794 159.766 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,7 +3401,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 264.414 117.602 90)
+		(at 264.414 159.512 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3411,7 @@
 	)
 	(text "SCK"
 		(exclude_from_sim no)
-		(at 259.08 117.856 90)
+		(at 259.08 159.766 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3443,7 @@
 	)
 	(global_label "VW_CS"
 		(shape input)
-		(at 266.7 104.14 90)
+		(at 266.7 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3389,7 +3453,7 @@
 		)
 		(uuid "094a963e-2663-4150-94a4-6bff7858b251")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 95.1677 90)
+			(at 266.7 137.0777 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3487,7 @@
 	)
 	(global_label "COL_J"
 		(shape input)
-		(at 228.6 55.88 180)
+		(at 226.06 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3433,7 +3497,7 @@
 		)
 		(uuid "18ce5665-7583-465d-b879-d7ed3ff23e74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.051 55.88 0)
+			(at 217.511 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3597,7 @@
 	)
 	(global_label "VW_SCK"
 		(shape input)
-		(at 259.08 104.14 90)
+		(at 259.08 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3543,7 +3607,7 @@
 		)
 		(uuid "46f7dc1d-9c71-4157-ac6f-ed8ecea4c555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 93.8977 90)
+			(at 259.08 135.8077 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3619,7 @@
 	)
 	(global_label "ROW_1"
 		(shape input)
-		(at 228.6 71.12 180)
+		(at 226.06 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3565,7 +3629,7 @@
 		)
 		(uuid "4bba3e97-1382-4d2a-b1cf-ba87e05a8af0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3858 71.12 0)
+			(at 216.8458 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3685,7 @@
 	)
 	(global_label "COL_I"
 		(shape input)
-		(at 228.6 58.42 180)
+		(at 226.06 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3631,7 +3695,7 @@
 		)
 		(uuid "60022591-f4d3-4169-9212-d60817a1fcae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4138 58.42 0)
+			(at 217.8738 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3729,7 @@
 	)
 	(global_label "ROW_4"
 		(shape input)
-		(at 228.6 63.5 180)
+		(at 226.06 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3675,7 +3739,7 @@
 		)
 		(uuid "65f70f7d-1460-4811-9a94-4af07d3cdce3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3858 63.5 0)
+			(at 216.8458 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3751,7 @@
 	)
 	(global_label "ROW_2"
 		(shape input)
-		(at 228.6 68.58 180)
+		(at 226.06 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3697,7 +3761,7 @@
 		)
 		(uuid "729abb1b-4c35-469d-87e2-39b25a415636")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3858 68.58 0)
+			(at 216.8458 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +3993,7 @@
 	)
 	(global_label "VW_MOSI"
 		(shape input)
-		(at 256.54 104.14 90)
+		(at 256.54 146.05 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3939,7 +4003,7 @@
 		)
 		(uuid "93c03d70-3647-4a67-8349-cb74fa666fbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.54 93.051 90)
+			(at 256.54 134.961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4081,7 @@
 	)
 	(global_label "ROW_0"
 		(shape input)
-		(at 228.6 73.66 180)
+		(at 226.06 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4027,7 +4091,7 @@
 		)
 		(uuid "a4a16da9-a862-4cc0-a60a-a17ef0c430be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3858 73.66 0)
+			(at 216.8458 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4147,7 @@
 	)
 	(global_label "COL_K"
 		(shape input)
-		(at 228.6 53.34 180)
+		(at 226.06 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4093,7 +4157,7 @@
 		)
 		(uuid "bce30ceb-56f1-4cde-95eb-56a3a705a5ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.7486 53.34 0)
+			(at 217.2086 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4169,7 @@
 	)
 	(global_label "COL_H"
 		(shape input)
-		(at 228.6 60.96 180)
+		(at 226.06 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4115,7 +4179,7 @@
 		)
 		(uuid "c34b7aff-b0bf-4852-88a3-c2ba3d060079")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.6881 60.96 0)
+			(at 217.1481 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4323,7 @@
 	)
 	(global_label "ROW_3"
 		(shape input)
-		(at 228.6 66.04 180)
+		(at 226.06 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4269,7 +4333,7 @@
 		)
 		(uuid "f22ad672-0fb8-4289-ad89-aa40d3e073b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3858 66.04 0)
+			(at 216.8458 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4835,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 238.76 39.37 180)
+		(at 238.76 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4780,7 +4844,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d6464da-edd3-4ac0-9c38-3c43f979d5e9")
 		(property "Reference" "J1"
-			(at 240.03 36.8299 0)
+			(at 240.03 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4853,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at 240.03 39.3699 0)
+			(at 240.03 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,8 +4861,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical"
-			(at 238.76 39.37 0)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+			(at 238.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4807,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 39.37 0)
+			(at 238.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4816,7 +4880,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 238.76 39.37 0)
+			(at 238.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4905,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 34.29 0)
+		(at 267.97 57.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4850,7 +4914,7 @@
 		(fields_autoplaced yes)
 		(uuid "150ae33d-1fb9-4b73-81a3-b87c5dfa7526")
 		(property "Reference" "H2"
-			(at 257.81 33.0199 0)
+			(at 270.51 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4923,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 35.5599 0)
+			(at 270.51 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,8 +4931,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 34.29 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 34.29 0)
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4950,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 34.29 0)
+			(at 267.97 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5057,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 63.5 0)
+		(at 267.97 72.39 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5002,7 +5066,7 @@
 		(fields_autoplaced yes)
 		(uuid "17421c07-871b-4eba-8984-370ec0f647c0")
 		(property "Reference" "H7"
-			(at 257.81 62.2299 0)
+			(at 270.51 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5075,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 64.7699 0)
+			(at 270.51 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,8 +5083,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 63.5 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 63.5 0)
+			(at 267.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5102,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 63.5 0)
+			(at 267.97 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,6 +5182,70 @@
 			(project "keyboard-right"
 				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
 					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 250.19 77.47 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19642005-f6b1-45b4-bb06-117f2d59e5f9")
+		(property "Reference" "H13"
+			(at 252.73 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.73 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:MountingPin_M3"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -5212,6 +5340,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 92.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f10727d-2835-4452-8de1-94f09bf8fb46")
+		(property "Reference" "H12"
+			(at 270.51 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 40.64 129.54 0)
 		(unit 1)
@@ -5281,7 +5473,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 52.07 0)
+		(at 267.97 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5290,7 +5482,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f1e0484-1a5a-477a-b3d2-b9b4733738b8")
 		(property "Reference" "H5"
-			(at 257.81 50.7999 0)
+			(at 270.51 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5491,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 53.3399 0)
+			(at 270.51 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,8 +5499,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 52.07 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 52.07 0)
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5518,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 52.07 0)
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,16 +5956,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 39.37 0)
+		(at 267.97 97.79 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3294f610-c664-4df1-9591-0107f6db5a9b")
-		(property "Reference" "H3"
-			(at 257.81 38.0999 0)
+		(uuid "325ddf05-21cb-4172-a370-195e84dddad1")
+		(property "Reference" "H14"
+			(at 270.51 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5782,7 +5974,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 40.6399 0)
+			(at 270.51 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,8 +5982,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 255.27 39.37 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 39.37 0)
+			(at 267.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5809,7 +6001,71 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 39.37 0)
+			(at 267.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 250.19 72.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3294f610-c664-4df1-9591-0107f6db5a9b")
+		(property "Reference" "H3"
+			(at 252.73 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 252.73 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:MountingPin_M3"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 250.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,6 +6233,85 @@
 			(project "keyboard-right"
 				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
 					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 231.14 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393074a3-44f9-4a21-b289-d299e3d13d5f")
+		(property "Reference" "J5"
+			(at 233.68 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUM_PAD_COLUMNS"
+			(at 233.68 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
+			(at 231.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7b0b69b-82d1-4c48-9d74-52a140b3d0ee")
+		)
+		(pin "5"
+			(uuid "8811a0a5-bc08-4c72-b6c1-195ad9c3c9c0")
+		)
+		(pin "4"
+			(uuid "0e4b62ba-a3c7-4816-b9a3-64279c226e09")
+		)
+		(pin "3"
+			(uuid "3cb9a819-c1b2-4a0a-95dd-809f534e2fb4")
+		)
+		(pin "1"
+			(uuid "bc4d1556-b3fc-440e-90ae-6ff8871b307d")
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6336,7 +6671,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 261.62 109.22 90)
+		(at 261.62 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6345,7 +6680,7 @@
 		(fields_autoplaced yes)
 		(uuid "4919062d-43a3-4748-9fb2-f1d0dd298f0a")
 		(property "Reference" "J2"
-			(at 261.62 111.76 90)
+			(at 261.62 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6688,7 @@
 			)
 		)
 		(property "Value" "nice!view"
-			(at 261.62 114.3 90)
+			(at 261.62 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6696,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 261.62 109.22 0)
+			(at 261.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 109.22 0)
+			(at 261.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6379,7 +6714,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 261.62 109.22 0)
+			(at 261.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6406,6 +6741,77 @@
 			(project "keyboard-right"
 				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "synth:SW_SPDT")
+		(at 223.52 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b41ba1b-716f-4cf2-b067-f5664e453826")
+		(property "Reference" "SW1"
+			(at 223.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 223.52 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Switch_MSK12C02"
+			(at 223.52 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 223.266 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "919ec466-b6d2-473a-90a0-832518d0ec7e")
+		)
+		(pin "3"
+			(uuid "e92eb433-0bad-4036-a98d-4ae0b64ff082")
+		)
+		(pin "2"
+			(uuid "4fabb4c0-48bc-42f6-916a-269121be21b5")
+		)
+		(instances
+			(project ""
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -6562,6 +6968,85 @@
 			(project "keyboard-right"
 				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 231.14 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5388cb06-1796-40e0-9e48-053eca9cf43e")
+		(property "Reference" "J4"
+			(at 233.68 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUM_PAD_ROWS"
+			(at 233.68 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 231.14 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5cad5be8-88a5-4c77-9cde-ccb770153f08")
+		)
+		(pin "5"
+			(uuid "21763432-2d99-493e-aa94-e783dd763c0d")
+		)
+		(pin "4"
+			(uuid "8d8376db-bf32-4d8f-902e-a015a7ce17bf")
+		)
+		(pin "3"
+			(uuid "48181681-2fd2-4168-903f-aec6c028c172")
+		)
+		(pin "1"
+			(uuid "e097d5bf-d2c5-48d6-8f81-658cc9c571d9")
+		)
+		(instances
+			(project ""
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7570,6 +8055,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 102.87 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75644d5c-c8f9-49ab-bfaa-95ce6ffb5cbc")
+		(property "Reference" "H15"
+			(at 270.51 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "synth:D_Signal (1N4148)")
 		(at 43.18 161.29 90)
 		(unit 1)
@@ -7659,7 +8208,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 68.58 0)
+		(at 267.97 77.47 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7668,7 +8217,7 @@
 		(fields_autoplaced yes)
 		(uuid "8733bcb6-1506-4940-80ef-94ebe88650ea")
 		(property "Reference" "H8"
-			(at 257.81 67.3099 0)
+			(at 270.51 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +8226,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 69.8499 0)
+			(at 270.51 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,8 +8234,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 68.58 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +8244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 68.58 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +8253,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 68.58 0)
+			(at 267.97 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,6 +8359,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 267.97 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ab5f3d3-2d30-4d8b-a0dc-7913037d60ef")
+		(property "Reference" "H11"
+			(at 270.51 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 270.51 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "keyboard-right"
+				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 53.34 53.34 0)
 		(unit 1)
@@ -7879,7 +8492,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 264.16 96.52 180)
+		(at 264.16 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7888,7 +8501,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cb1d951-701e-4222-9b18-42a4bad8ebd9")
 		(property "Reference" "#PWR06"
-			(at 264.16 90.17 0)
+			(at 264.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,7 +8510,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 264.16 91.44 0)
+			(at 264.16 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,7 +8519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 96.52 0)
+			(at 264.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +8528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 96.52 0)
+			(at 264.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,7 +8537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 264.16 96.52 0)
+			(at 264.16 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,97 +8993,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 233.68 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90404602-880e-40d1-919c-a892eb0526ce")
-		(property "Reference" "J4"
-			(at 236.22 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NUM_PAD"
-			(at 236.22 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 233.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "75ff46e3-a0a9-4973-b3e2-738c54f65c35")
-		)
-		(pin "3"
-			(uuid "33252f5f-bd36-4dd7-884b-59b4751c811b")
-		)
-		(pin "2"
-			(uuid "a908e940-6a3a-4f71-a163-e02a0a63b3e5")
-		)
-		(pin "6"
-			(uuid "c9ea8a1a-0659-4967-a59f-a5d513867892")
-		)
-		(pin "1"
-			(uuid "3f8514a5-bf34-436c-a6f3-4bbb169c20b9")
-		)
-		(pin "4"
-			(uuid "eba27faf-1ef2-40d6-891a-a360a27f0947")
-		)
-		(pin "7"
-			(uuid "e1f46346-9b75-4827-a956-98045a31c9bf")
-		)
-		(pin "9"
-			(uuid "17c112b7-5294-4e44-8e59-dafc190c9667")
-		)
-		(pin "5"
-			(uuid "d194db79-70d2-45e0-9c45-76d1068410a2")
-		)
-		(instances
-			(project ""
-				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 78.74 104.14 0)
 		(unit 1)
@@ -8540,7 +9062,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 44.45 0)
+		(at 250.19 67.31 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8549,7 +9071,7 @@
 		(fields_autoplaced yes)
 		(uuid "930c93eb-03ac-427d-9ba0-2606473f0733")
 		(property "Reference" "H4"
-			(at 257.81 43.1799 0)
+			(at 252.73 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8558,7 +9080,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 45.7199 0)
+			(at 252.73 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8566,8 +9088,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 255.27 44.45 0)
+		(property "Footprint" "keyboard:MountingPin_M3"
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +9098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 44.45 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,7 +9107,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 44.45 0)
+			(at 250.19 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8984,7 +9506,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 78.74 0)
+		(at 267.97 82.55 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8993,7 +9515,7 @@
 		(fields_autoplaced yes)
 		(uuid "a352e3ed-388a-47a5-9822-495d2716e946")
 		(property "Reference" "H9"
-			(at 257.81 77.4699 0)
+			(at 270.51 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,7 +9524,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 80.0099 0)
+			(at 270.51 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,8 +9532,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 78.74 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 78.74 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9551,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 78.74 0)
+			(at 267.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 85.09 0)
+		(at 250.19 57.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9369,7 +9891,7 @@
 		(fields_autoplaced yes)
 		(uuid "b759c25b-dfeb-475c-ad82-95ce17f9fd65")
 		(property "Reference" "H10"
-			(at 257.81 83.8199 0)
+			(at 252.73 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9900,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 86.3599 0)
+			(at 252.73 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,8 +9908,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 255.27 85.09 0)
+		(property "Footprint" "keyboard:MountingPin_M3"
+			(at 250.19 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 85.09 0)
+			(at 250.19 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +9927,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 85.09 0)
+			(at 250.19 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,74 +9939,6 @@
 			(project "keyboard-right"
 				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
 					(reference "H10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 223.52 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b86e3030-1ec6-4e19-aaa2-7705695902f9")
-		(property "Reference" "SW1"
-			(at 223.52 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ON/OFF"
-			(at 223.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
-			(at 223.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 223.52 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cd6e76c-dc15-424d-b025-e45ac1024817")
-		)
-		(pin "1"
-			(uuid "b0f1b41f-c246-490d-a611-8d49c8a03068")
-		)
-		(instances
-			(project "keyboard-right"
-				(path "/5eae8768-988a-4543-9fd6-1fb188d9b230"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9900,7 +10354,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 261.62 96.52 0)
+		(at 261.62 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9909,7 +10363,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca33961b-42ee-4956-a7b9-d28059da44c1")
 		(property "Reference" "#PWR05"
-			(at 261.62 100.33 0)
+			(at 261.62 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +10372,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 261.62 91.44 0)
+			(at 261.62 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +10380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 96.52 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +10389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 96.52 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9944,7 +10398,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 261.62 96.52 0)
+			(at 261.62 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10420,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 58.42 0)
+		(at 267.97 67.31 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -9975,7 +10429,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca7dd741-bd1d-4785-b4d6-2147c1b7e0b1")
 		(property "Reference" "H6"
-			(at 257.81 57.1499 0)
+			(at 270.51 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,7 +10438,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 59.6899 0)
+			(at 270.51 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,8 +10446,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 255.27 58.42 0)
+		(property "Footprint" "keyboard:MountingPin_M2"
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 58.42 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10465,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 58.42 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +11419,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 255.27 29.21 0)
+		(at 250.19 62.23 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10974,7 +11428,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa3c67ef-5849-4461-be52-fc3ae8d23b79")
 		(property "Reference" "H1"
-			(at 257.81 27.9399 0)
+			(at 252.73 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +11437,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 257.81 30.4799 0)
+			(at 252.73 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,8 +11445,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 255.27 29.21 0)
+		(property "Footprint" "keyboard:MountingPin_M3"
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +11455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 29.21 0)
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11010,7 +11464,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 255.27 29.21 0)
+			(at 250.19 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
